@@ -72,6 +72,11 @@ MAIN
 .main-btn:hover {
     background: rgb(40, 67, 45);
 }
+.main span {
+    color: rgb(88, 163, 104);
+    font-size: 2rem;
+	font-family: 'Sawarabi Mincho', serif;
+}
 
 /*
 Timer
