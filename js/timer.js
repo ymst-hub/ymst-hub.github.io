@@ -21,9 +21,13 @@ function count_stop()
         if(sec > 0.2){
             //秒と時間をhtml側に表示
             document.getElementById("timer_result_sec").textContent = sec
-            document.getElementById("timer_result_hour").textContent = hour
+            document.getElementById("timer_result_hour").textContent = hour.toFixed(1) //小数点第１位まで表示
+        }else{
+            alert("もう少しゆっくり数えてみましょう")
         }
-        
+
+    }else{
+        alert("数え始めてください")
     }
     
     
